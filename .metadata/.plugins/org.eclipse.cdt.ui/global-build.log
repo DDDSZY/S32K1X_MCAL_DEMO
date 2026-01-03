@@ -1,0 +1,56 @@
+22:54:39 **** Incremental Build of configuration Debug_FLASH for project S32K148_MCAL_DEMO ****
+make -j16 all 
+Building file: ../src/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:242:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:9131:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section data ".mcal_data"
+ 
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:251:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:9153:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section data
+ 
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:256:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:8163:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section rodata ".mcal_const_cfg"
+ 
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:268:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:8185:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section rodata
+ 
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:275:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:8603:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section text ".mcal_text"
+ 
+In file included from E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Mcu_TS_T40D2M10I6R0/include/Mcu.h:378:0,
+                 from ../src/main.c:6:
+E:/workplace/Workplace_S32DS/place1/S32K148_MCAL_DEMO/MCAL/Base_TS_T40D2M10I6R0/include/Mcu_MemMap.h:8625:0: warning: ignoring #pragma GCC section [-Wunknown-pragmas]
+     #pragma GCC section text
+ 
+Finished building: ../src/main.c
+ 
+Building target: S32K148_MCAL_DEMO.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "S32K148_MCAL_DEMO.elf" "@S32K148_MCAL_DEMO.args"   
+Finished building target: S32K148_MCAL_DEMO.elf
+ 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K148_MCAL_DEMO.elf
+   text	   data	    bss	    dec	    hex	filename
+   6768	   1072	   3264	  11104	   2b60	S32K148_MCAL_DEMO.elf
+Finished building: S32K148_MCAL_DEMO.siz
+ 
+11:39:36 **** Build of configuration Debug_FLASH for project S32K148_MCAL_DEMO ****
+make -j16 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K148_MCAL_DEMO.elf
+   text	   data	    bss	    dec	    hex	filename
+   6768	   1072	   3264	  11104	   2b60	S32K148_MCAL_DEMO.elf
+Finished building: S32K148_MCAL_DEMO.siz
+ 

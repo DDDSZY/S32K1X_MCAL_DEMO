@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1766328089398_1" label="Other Projects" name="Other Projects">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/S32K148_MCAL_DEMO" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1766328030235_0" label="Window Working Set" name="Aggregate for window 1766328030235"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1767325165899_2" label="Window Working Set" name="Aggregate for window 1767325165899"/>
+</workingSetManager>

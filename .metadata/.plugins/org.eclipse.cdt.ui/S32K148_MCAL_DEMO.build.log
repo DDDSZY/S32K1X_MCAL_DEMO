@@ -1,0 +1,11 @@
+11:39:36 **** Build of configuration Debug_FLASH for project S32K148_MCAL_DEMO ****
+make -j16 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley S32K148_MCAL_DEMO.elf
+   text	   data	    bss	    dec	    hex	filename
+   6768	   1072	   3264	  11104	   2b60	S32K148_MCAL_DEMO.elf
+Finished building: S32K148_MCAL_DEMO.siz
+ 
+
+11:39:39 Build Finished (took 2s.263ms)
+
